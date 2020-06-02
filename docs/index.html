@@ -148,10 +148,6 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
-<li>_Content</li>
-
-<li>_Зміст</li>
-
 <li>$:/.tb/styles/really-numbered</li>
 
 <li>$:/boa/css/columns</li>
@@ -278,7 +274,21 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>1.png</li>
+
+<li>2.png</li>
+
+<li>3.png</li>
+
+<li>4.png</li>
+
+<li>5.png</li>
+
+<li>6.png</li>
+
 <li>Compulsory measures.svg</li>
+
+<li>Content</li>
 
 <li>Data collection.svg</li>
 
@@ -291,6 +301,8 @@ Error message and password prompt
 <li>Operation principle.svg</li>
 
 <li>Operator workplace.svg</li>
+
+<li>Policy regarding the second-hand cars import</li>
 
 <li>Smart city public project</li>
 
@@ -310,7 +322,11 @@ Error message and password prompt
 
 <li>Збір даних.svg</li>
 
+<li>Зміст</li>
+
 <li>Основні забруднювачі.svg</li>
+
+<li>Політика у сфері імпорту вживаних авто</li>
 
 <li>Примусові заходи.svg</li>
 
@@ -338,22 +354,6 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20200516201331085" icon="$:/favicon.ico" modified="20200516201351375" swap="_Зміст" title="_Content" revision="0" bag="default">
-<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
-&lt;&lt;list-links &quot;[list[Eng]]&quot; &quot;ol&quot;&gt;&gt;
-&lt;/div&gt;
-&lt;!--
-&lt;&lt;alert-warning &quot;Insert [[here|_Content]] your custom table of content or something similar&quot;&gt;&gt;
---&gt;</pre>
-</div>
-<div created="20200516201427419" icon="$:/favicon.ico" modified="20200516201450238" swap="_Content" title="_Зміст" revision="0" bag="default">
-<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
-&lt;&lt;list-links &quot;[list[Ukr]]&quot; &quot;ol&quot;&gt;&gt;
-&lt;/div&gt;
-&lt;!--
-&lt;&lt;alert-warning &quot;Вставте [[тут|_Зміст]] власну таблицю змісту або щось подібне&quot;&gt;&gt;
---&gt;</pre>
-</div>
 <div created="20141201201027548" creator="Tobias Beer" modified="20141201202132078" modifier="Tobias Beer" tags="$:/tags/Stylesheet" title="$:/.tb/styles/really-numbered" type="text/css" revision="0" bag="default">
 <pre>.ol,
 .ol ol {
@@ -10488,26 +10488,26 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div author="oleghbond" core-version="5.1.21" dependents="Shiraz Utility" description="BOA - Bilingual pages swapper" list="readme Component-description" plugin-type="plugin" title="$:/plugins/boa/langswap" type="application/json" version="0.0.5" revision="0" bag="default">
+<div author="oleghbond" core-version="5.1.21" dependents="Shiraz Utility" description="BOA - Bilingual pages swapper" list="readme Component-description" plugin-type="plugin" title="$:/plugins/boa/langswap" type="application/json" version="0.0.6" revision="0" bag="default">
 <pre>{
 	&quot;tiddlers&quot;: {
 		&quot;$:/plugins/boa/langswap/swapbutton&quot;: {
-			&quot;text&quot;: &quot;&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-navigate $to={{!!swap}}/&gt;\n&lt;span title={{!!swap}}&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Ukr]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/GBR.svg}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Eng]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/UKR.svg}}\n&lt;/$list&gt;\n&lt;/span&gt;\n&lt;/$button&gt;&quot;,
+			&quot;text&quot;: &quot;&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-navigate $to={{!!swap}}/&gt;\n&lt;span title={{!!swap}}&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Ukr]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/Eng.svg}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Eng]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/Ukr.svg}}\n&lt;/$list&gt;\n&lt;/span&gt;\n&lt;/$button&gt;&quot;,
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/swapbutton&quot;,
 			&quot;description&quot;: &quot;switching between identical pages in Ukrainian and English&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/swap.svg}} swapbutton&quot;,
+			&quot;caption&quot;: &quot;{{$:/core/images/globe}} swapbutton&quot;,
 			&quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
 			&quot;tags&quot;: &quot;$:/tags/ViewToolbar&quot;
 		},
-		&quot;$:/plugins/boa/langswap/img/GBR.svg&quot;: {
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/GBR.svg&quot;,
+		&quot;$:/plugins/boa/langswap/img/Eng.svg&quot;: {
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/Eng.svg&quot;,
 			&quot;type&quot;: &quot;image/svg+xml&quot;,
-			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 15.73 7.83\&quot;&gt;\r\n &lt;g&gt;\r\n  &lt;polygon fill=\&quot;#000066\&quot; points=\&quot;0,0 15.65,0 15.65,7.83 0,7.83 \&quot;/&gt;\r\n  &lt;path fill=\&quot;white\&quot; d=\&quot;M0 0l0 0.88 13.9 6.95 1.75 0 0 -0.88 -13.9 -6.95 -1.75 0zm15.65 0l0 0.88 -13.9 6.95 -1.75 0 0 -0.88 13.9 -6.95 1.75 0z\&quot;/&gt;\r\n  &lt;path fill=\&quot;white\&quot; d=\&quot;M6.52 0l0 7.83 2.61 0 0 -7.83 -2.61 0zm-6.52 2.61l0 2.61 15.65 0 0 -2.61 -15.65 0z\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;15.65,7.83 10.44,5.22 11.6,5.22 15.65,7.24\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;9.35,2.61 14.56,0 15.73,0 10.51,2.61\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,0 5.22,2.61 4.05,2.61 0,0.58\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,7.83 5.22,5.22 6.39,5.22 1.17,7.83\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;7.04,0 7.04,7.83 8.61,7.83 8.61,0\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,3.13 0,4.7 15.65,4.7 15.65,3.13\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
+			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; version=\&quot;1.1\&quot; viewBox=\&quot;0 0 16.16 16.16\&quot;&gt;\r\n &lt;g &gt;\r\n  &lt;g&gt;\r\n   &lt;rect fill=\&quot;#F0F0F0\&quot; width=\&quot;16.16\&quot; height=\&quot;16.16\&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;0,9.6 6.57,9.6 6.57,16.16 9.6,16.16 9.6,9.6 16.16,9.6 16.16,6.57 9.6,6.57 9.6,0 6.57,0 6.57,6.57 0,6.57 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;12.85,10.54 16.16,13.86 16.16,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;14.67,16.16 10.54,12.04 10.54,16.16 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#F0F0F0\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;2.54,10.54 0,13.08 0,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;5.62,11.26 5.62,16.16 0.72,16.16 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;4.03,10.54 0,14.57 0,16.16 0,16.16 5.62,10.54 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;3.32,5.62 0,2.3 0,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;1.5,0 5.62,4.12 5.62,0 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#F0F0F0\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;13.63,5.62 16.16,3.09 16.16,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;10.54,4.91 10.54,0 15.45,0 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;12.13,5.62 16.16,1.59 16.16,0 16.16,0 10.54,5.62 \&quot;/&gt;\r\n  &lt;/g&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
 		},
-		&quot;$:/plugins/boa/langswap/img/UKR.svg&quot;: {
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/UKR.svg&quot;,
+		&quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;: {
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;,
 			&quot;type&quot;: &quot;image/svg+xml&quot;,
-			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 15.68 7.84\&quot;&gt;\r\n &lt;g&gt;\r\n  &lt;polygon fill=\&quot;#FFD500\&quot; points=\&quot;0,0 15.68,0 15.68,7.84 0,7.84\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#005BBB\&quot; points=\&quot;0,0 15.68,0 15.68,3.92 0,3.92\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
+			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 16.35 16.35\&quot;&gt;\r\n &lt;g&gt;\r\n   &lt;rect fill=\&quot;#FFDA44\&quot; width=\&quot;16.35\&quot; height=\&quot;16.35\&quot;/&gt;\r\n   &lt;rect fill=\&quot;#338AF3\&quot; width=\&quot;16.35\&quot; height=\&quot;8.17\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
 		},
 		&quot;Eng&quot;: {
 			&quot;text&quot;: &quot;&lt;&lt;simple-navigation tag:Eng&gt;&gt;\n&quot;,
@@ -10515,6 +10515,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 			&quot;tags&quot;: &quot;$:/tags/ViewTemplate&quot;,
 			&quot;swap&quot;: &quot;Ukr&quot;,
 			&quot;list&quot;: &quot;&quot;,
+			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/Eng.svg&quot;,
 			&quot;color&quot;: &quot;#eae7c1&quot;
 		},
 		&quot;Ukr&quot;: {
@@ -10523,43 +10524,45 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 			&quot;tags&quot;: &quot;$:/tags/ViewTemplate&quot;,
 			&quot;swap&quot;: &quot;Eng&quot;,
 			&quot;list&quot;: &quot;&quot;,
-			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/UKR.svg&quot;,
+			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;,
 			&quot;color&quot;: &quot;#eae7c1&quot;
 		},
-		&quot;$:/plugins/boa/langswap/Content&quot;: {
-			&quot;text&quot;: &quot;{{_Content}}&quot;,
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Content&quot;,
+		&quot;$:/plugins/boa/langswap/content-Eng&quot;: {
+			&quot;text&quot;: &quot;{{Content}}&quot;,
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/content-Eng&quot;,
 			&quot;tags&quot;: &quot;$:/tags/SideBar&quot;,
 			&quot;list-before&quot;: &quot;$:/core/ui/SideBar/Open&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/GBR.svg}}&quot;
+			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/Eng.svg}}&quot;
 		},
-		&quot;$:/plugins/boa/langswap/Зміст&quot;: {
-			&quot;text&quot;: &quot;{{_Зміст}}&quot;,
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Зміст&quot;,
+		&quot;$:/plugins/boa/langswap/content-Ukr&quot;: {
+			&quot;text&quot;: &quot;{{Зміст}}&quot;,
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/content-Ukr&quot;,
 			&quot;tags&quot;: &quot;$:/tags/SideBar&quot;,
-			&quot;list-after&quot;: &quot;$:/plugins/boa/langswap/Content&quot;,
+			&quot;list-after&quot;: &quot;$:/plugins/boa/langswap/content-Eng&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/UKR.svg}}&quot;
+			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/Ukr.svg}}&quot;
 		},
-		&quot;_Content&quot;: {
-			&quot;title&quot;: &quot;_Content&quot;,
-			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Insert [[here|_Content]] your custom table of content or something similar\&quot;&gt;&gt;&quot;,
-			&quot;swap&quot;: &quot;_Зміст&quot;,
+		&quot;Content&quot;: {
+			&quot;title&quot;: &quot;Content&quot;,
+			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Insert here [[Content]] your custom table of content or something similar\&quot;&gt;&gt;&quot;,
+			&quot;tags&quot;: &quot;Eng&quot;,
+			&quot;swap&quot;: &quot;Зміст&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;
 		},
-		&quot;_Зміст&quot;: {
-			&quot;title&quot;: &quot;_Зміст&quot;,
-			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Вставте [[тут|_Зміст]] власну таблицю змісту або щось подібне\&quot;&gt;&gt;&quot;,
-			&quot;swap&quot;: &quot;_Content&quot;,
+		&quot;Зміст&quot;: {
+			&quot;title&quot;: &quot;Зміст&quot;,
+			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Вставте тут [[Зміст]] власну таблицю змісту або щось подібне\&quot;&gt;&gt;&quot;,
+			&quot;tags&quot;: &quot;Ukr&quot;,
+			&quot;swap&quot;: &quot;Content&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;
 		},
 		&quot;$:/plugins/boa/langswap/readme&quot;: {
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/readme&quot;,
-			&quot;text&quot;: &quot;Plugin is:\n\n* titled &lt;&lt;mono \&quot;BOA - Language page swapper\&quot;&gt;&gt;,\n* placed locally at [[$:/plugins/boa/langswap]],\n* placed globally at [[https://protw.github.io/templ]],\n* dependent on other plugins Shiraz and Utility.\n\nThe plugin sets an additional button &lt;&lt;doc-svg $:/plugins/boa/langswap/swap.svg&gt;&gt; at the top right of a tiddler intended for switching between identical pages in //Ukrainian// and //English//. The name of the translated matching tiddler is written in the tiddler field &lt;&lt;mono swap&gt;&gt;.\n\nFor example, we have two matching tiddlers titled &lt;&lt;mono Стаття&gt;&gt; and &lt;&lt;mono Article&gt;&gt;, respectively in Ukrainian and English. In order to ensure correct transition from tiddler &lt;&lt;mono Стаття&gt;&gt; in its field &lt;&lt;mono swap&gt;&gt; the value ''Article'' must be specified, and in tiddler &lt;&lt;mono Article&gt;&gt; in the same field &lt;&lt;mono swap&gt;&gt; -- the value ''Стаття'', respectively. Also, each of the two tiddlers must be tagged with their language, &lt;&lt;tag Ukr&gt;&gt; or &lt;&lt;tag Eng&gt;&gt;, respectively.\n\nAdditionally, the plugin creates two tag tiddlers [[Ukr]] and [[Eng]], each of which stores an ordered list of all the tiddlers tagged with the ''Ukr'' or ''Eng'', respectively. Moreover, the order of the tiddlers in these lists can be rearranged using //drag-and-drop// by pre-clicking on the tag icon ''Ukr'' or ''Eng''. And that's not all - there are a couple of navigation buttons &lt;&lt;mono \&quot;previous | next\&quot;&gt;&gt; in the bottom of each tiddler from the list. The functionality specified here is provided with a &lt;&lt;mono \&quot;simple-navigation\&quot;&gt;&gt; macros, which is part of the plugin [[$:/plugins/kookma/utility]].\n\nAlso, the plugin creates two plane content tables &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; based on the [[Ukr]] and [[Eng]] tags, respectively. These two tables of content are placed in the sidebar under &lt;&lt;mono Content-Зміст&gt;&gt; tab.&quot;
+			&quot;text&quot;: &quot;Plugin is:\n\n* titled &lt;&lt;mono \&quot;BOA - Language page swapper\&quot;&gt;&gt;,\n* placed locally at [[$:/plugins/boa/langswap]],\n* placed globally at [[https://protw.github.io/templ]],\n* dependent on other plugins Shiraz and Utility.\n\nThe plugin sets an additional button {{$:/plugins/boa/langswap/img/UKR.svg}} (or {{$:/plugins/boa/langswap/img/GBR.svg}}) at the top right of a tiddler intended for switching between identical pages in //Ukrainian// and //English//. The name of the translated matching tiddler is written in the tiddler field &lt;&lt;mono swap&gt;&gt;.\n\nFor example, there are two matching tiddlers titled &lt;&lt;mono Стаття&gt;&gt; and &lt;&lt;mono Article&gt;&gt;, respectively in Ukrainian and English. In order to ensure correct transition from tiddler &lt;&lt;mono Стаття&gt;&gt; the value ''Article'' must be specified in its field &lt;&lt;mono swap&gt;&gt;, and the value ''Стаття'' in tiddler &lt;&lt;mono Article&gt;&gt; in the same field &lt;&lt;mono swap&gt;&gt;, respectively. Also, each of the two tiddlers must be tagged with their language, &lt;&lt;tag Ukr&gt;&gt; or &lt;&lt;tag Eng&gt;&gt;, respectively.\n\nAdditionally, the plugin creates (contains) two tag tiddlers [[Ukr]] and [[Eng]], each of which stores an ordered list of all the tiddlers tagged with the ''Ukr'' or ''Eng'', respectively. The order of the tiddlers in these lists can be rearranged using //drag-and-drop// by pre-clicking on the tag icon ''Ukr'' or ''Eng''. And that's not all - there are a couple of navigation buttons &lt;&lt;mono \&quot;previous | next\&quot;&gt;&gt; in the bottom of each tiddler from the list. The functionality specified here is provided with a &lt;&lt;mono \&quot;simple-navigation\&quot;&gt;&gt; macros, which is part of the plugin [[$:/plugins/kookma/utility]].\n\nAlso, the plugin creates two plane content tables &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; based on the [[Ukr]] and [[Eng]] tags, respectively. These two tables of content are placed in the sidebar. The code inside these two tiddlers creating the table of content of the wiki can be customized by a user to whatever else.\n\n!! Localization of the plugin\n\nThe localization of this plugin presumes its readjustment into an alternative arbitrary pair of languages. This process comprises the following simple steps:\n\n# put the plugin code somewhere at your computer as plain text file titled (by default) `$__plugins_boa_langswap.tid` and open it by a text editor a type of //Notepad//;\n# perform substitution through the whole document of the language names &lt;&lt;mono Ukrainian&gt;&gt; and &lt;&lt;mono English&gt;&gt; into two names of the selected alternative languages.\n# perform substitution through the whole document of the tokens &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; into two equivalent terms of the word //Content// in the two selected alternative languages, accordingly.\n# perform substitution of the //svg-code// of the two flags containing in the field &lt;&lt;mono text&gt;&gt; in tiddlers $:/plugins/boa/langswap/img/Ukr.svg and $:/plugins/boa/langswap/img/Eng.svg with //svg-code// of a selected pair of alternative languages. Two tips: \n#* both width and height given inside the custom //svg-code// is &lt;&lt;mono 16px&gt;&gt;; \n#* do not forget to arrange escape characters inside the //svg-code// according to rules of the JSON-format;\n# perform substitution through the whole document of \n#* the token &lt;&lt;mono Ukr&gt;&gt; to a token of the first selected alternative language, say, &lt;&lt;mono Lang1&gt;&gt; and \n#* the token &lt;&lt;mono Eng&gt;&gt; to a token of the second selected alternative language, say, &lt;&lt;mono Lang2&gt;&gt;;\n# that's all, use and enjoy...\n&quot;
 		},
 		&quot;$:/plugins/boa/langswap/Component-description&quot;: {
-			&quot;text&quot;: &quot;This plugin contains the following shadow tiddlers:\n\n|table-striped-row|k\n|!Component|!Description|\n|^$:/plugins/boa/langswap/swapbutton |^The swap button macro code |\n|^$:/plugins/boa/langswap/img/GBR.svg |^Great Britain's flag |\n|^$:/plugins/boa/langswap/img/UKR.svg |^Ukrainian flag |\n|^[[Eng]] |^Tag ''Eng'' tiddler, contains macros `&lt;&lt;simple-navigation tag:Eng&gt;&gt;` for `previous | next` navigation |\n|^[[Ukr]] |^Tag ''Ukr'' tiddler, contains navigation macros `&lt;&lt;simple-navigation tag:Ukr&gt;&gt;` for `previous | next` navigation |\n|^[[$:/plugins/boa/langswap/Зміст]] |^This tiddler contains the custom TOC in Ukrainian transcluded by `{{_Зміст}}` and is used for displaying TOC at the side bar.  |\n|^$:/plugins/boa/langswap/Content |^This tiddler contains the custom TOC in English transcluded by `{{_Content}}` and is used for displaying TOC at the side bar. |\n|^[[_Зміст]] |^Container for customizable Ukrainian TOC |\n|^[[_Content]] |^Container for customizable English TOC |\n|^$:/plugins/boa/langswap/readme |^Readme |\n|^$:/plugins/boa/langswap/Component-description |^This component description |\n&quot;,
+			&quot;text&quot;: &quot;This plugin contains the following shadow tiddlers:\n\n|table-striped-row|k\n|!Component|!Description|\n|^$:/plugins/boa/langswap/swapbutton |^The swap button macro code |\n|^$:/plugins/boa/langswap/img/Eng.svg |^Great Britain's flag |\n|^$:/plugins/boa/langswap/img/Ukr.svg |^Ukrainian flag |\n|^[[Eng]] |^Tag ''Eng'' tiddler, contains macros `&lt;&lt;simple-navigation tag:Eng&gt;&gt;` for `previous | next` navigation |\n|^[[Ukr]] |^Tag ''Ukr'' tiddler, contains navigation macros `&lt;&lt;simple-navigation tag:Ukr&gt;&gt;` for `previous | next` navigation |\n|^[[$:/plugins/boa/langswap/content-Ukr]] |^This tiddler contains the custom TOC in Ukrainian transcluded by `{{Зміст}}` and is used for displaying TOC at the side bar.  |\n|^$:/plugins/boa/langswap/content-Eng |^This tiddler contains the custom TOC in English transcluded by `{{Content}}` and is used for displaying TOC at the side bar. |\n|^[[Зміст]] |^Container for customizable Ukrainian TOC |\n|^[[Content]] |^Container for customizable English TOC |\n|^$:/plugins/boa/langswap/readme |^Readme |\n|^$:/plugins/boa/langswap/Component-description |^This component description |\n&quot;,
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Component-description&quot;
 		}
 	}
@@ -10613,7 +10616,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div .tc-site-title="before {" color="silver;" content="&quot;TW &lt;&lt;version&gt;&gt;&quot;;" created="20180906042308596" font-size="13px;" margin-top="-1.9em;" modified="20200317184517012" position="absolute;" tags="kookma" title="$:/plugins/kookma/utility/stylesheet/tw-version" type="application/x-tiddler" revision="0" bag="default">
 <pre></pre>
 </div>
-<div created="20181010162537613" description="Toggle field handling in view mode" list-after="$:/core/ui/ViewTemplate/tags" modified="20200330074217826" tags="" title="$:/plugins/kookma/utility/viewtemplate/view-fields" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20181010162537613" description="Toggle field handling in view mode" list-after="$:/core/ui/ViewTemplate/tags" modified="20200602092829375" tags="" title="$:/plugins/kookma/utility/viewtemplate/view-fields" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>\define lingo-base() $:/language/EditTemplate/
 \define config-title()
 $:/config/EditTemplateFields/Visibility/$(currentField)$
@@ -11063,13 +11066,40 @@ $value={{$:/temp/newfieldvalue}}/&gt;
 <div created="20200321082601818" modified="20200321082601818" title="$:/view" revision="0" bag="default">
 <pre>zoomin</pre>
 </div>
+<div _canonical_uri="./images/1.png" created="20200526081941872" modified="20200526083437638" title="1.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/2.png" created="20200526083418888" modified="20200526083422149" title="2.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/3.png" created="20200526083855945" modified="20200526083858276" title="3.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/4.png" created="20200526084425403" modified="20200526084427945" title="4.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/5.png" created="20200526084753362" modified="20200526084755867" title="5.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/6.png" created="20200526085539111" modified="20200526085542484" title="6.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
 <div _canonical_uri="./images/Compulsory%2520measures.svg" created="20200320231518844" modified="20200320231643170" swap="Примусові заходи.svg" tags="Eng" title="Compulsory measures.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
+</div>
+<div created="20200526145732598" icon="$:/favicon.ico" modified="20200526145734900" swap="Зміст" tags="Eng" title="Content" revision="0" bag="default">
+<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
+&lt;&lt;list-links &quot;[list[Eng]] -[[Content]]&quot; &quot;ol&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;!--
+&lt;&lt;alert-warning &quot;Insert here [[Content]] your custom table of content or something similar&quot;&gt;&gt;
+--&gt;
+</pre>
 </div>
 <div _canonical_uri="./images/Data%2520collection.svg" created="20200320230919628" modified="20200320230944613" swap="Збір даних.svg" tags="Eng" title="Data collection.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
 </div>
-<div color="#eae7c1" created="20200330074347912" icon="$:/plugins/boa/langswap/img/GBR.svg" list="[[Issue and solution]] [[High emitters.svg]] [[Operation principle.svg]] [[Data collection.svg]] [[Technical characteristics.svg]] [[Operator workplace.svg]] [[Compulsory measures.svg]] [[Smart city public project]]" modified="20200330074354474" swap="Ukr" tags="$:/tags/ViewTemplate" title="Eng" revision="0" bag="default">
+<div color="#eae7c1" created="20200526145757335" icon="$:/plugins/boa/langswap/img/Eng.svg" list="[[Issue and solution]] [[High emitters.svg]] [[Operation principle.svg]] [[Data collection.svg]] [[Technical characteristics.svg]] [[Operator workplace.svg]] [[Compulsory measures.svg]] [[Smart city public project]]" modified="20200526145803733" swap="Ukr" tags="$:/tags/ViewTemplate" title="Eng" revision="0" bag="default">
 <pre>&lt;&lt;simple-navigation tag:Eng&gt;&gt;
 </pre>
 </div>
@@ -11090,6 +11120,203 @@ To identify &quot;high emitters&quot; - the individual vehicles that cause the m
 </div>
 <div _canonical_uri="./images/Operator%2520workplace.svg" created="20200320231247816" modified="20200320231330930" swap="Робочі місця оператора.svg" tags="Eng" title="Operator workplace.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
+</div>
+<div created="20200601123303429" modified="20200602092808622" swap="Політика у сфері імпорту вживаних авто" tags="Eng" title="Policy regarding the second-hand cars import" revision="0" bag="default">
+<pre>&lt;&lt;slider label:&quot;''Webinar''&quot; status:open labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+On 13th of May 2020, regional EU company //T&amp;E// (Transport and Environment), leading in the field of clean transportation in Europe, along with its partner, Polish company FPPE (Fundacja Promocji Pojazdów Elektrycznych or Electric Vehicles Promotion Foundation) held a webinar, under the title “Controlling the import of polluting second-hand cars to Central and Eastern Europe”, devoted to the companies' research of growth in the number of polluting second-hand cars and consequent increase in atmospheric pollution, as well as suggested plitical and economical solutions of this issue, on an example of Poland. 
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Terms and abbreviations''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+* CNG - Compressed Natural Gas;
+* CO2 - Carbon dioxide;
+* DPF - Diesel Particular Filter;
+* EU - European Union;
+* EUR - Euro;
+* ICE - Internal Combustion Engine;
+* LEV - Low Emissions Vehicle (Vehicle emitting less than 50g CO2 per km);
+* LPG - Liquified Petroleum Gas;
+* NOx - Nitrogen oxides;
+* PHEV - Plug-in Hybrid Electric Vehicle;
+* PLN - Polish zloty;
+* VAT - Value Added Tax;
+* ZEV - Zero Emissions Vehicle.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Introductory provisions and justification''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+According to the conducted research, the number of passenger cars in the country increased in years 1990 to 2017, from 5261 to 22504, which currently is 593 cars per 1000 people. As of 2017 - this index was one of the highest in the EU - placed 6th, after Luxemburg (670), Italy (625), Finland (619), Malta (613) and Cyprus (609). 
+
+In accordance with the growth trends of the number of cars, there is also a significant increase in atmospheric pollution levels, particularly, with such compounds, as greenhouse gas CO2 (observed increase by 300% in the period of 1990-2017) and NOx.
+
+In 2004, there was an explosion-like increase of the import of second-hand cars into Poland - almost 20 times, in yearly scale. It was not a coincidence, but a cosequence of Poland being accepted into the EU the same year. Accordingly, another (negative) effect of this acception is the dominance of cars with mileage over then 10 years (fig. 1) as of the data of 2017.
+
+&lt;center&gt;[img[1.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 1.'' Passenger cars by age (in % of the general number), 2017. &lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Environmental tax reform in transportation sector''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+In order to solve the issue of atmospheric pollution from automobile transport, T&amp;E та FPPE jointly developed and analyzed 14 political and economic proposals - leverages, which are supposed to reduce the use of traditional cars immensly, especially second-hand ones, all the while promoting low-emission vehicles (LEVs) and zero-emission vehicles (ZEVs). 
+
+Main goals of those proposals are:
+
+* Blocking the import of old second-hand cars;
+* Bonus-malus principle implementation (“the carrot and the stick”);
+* Supporting the elctric car market;
+* Increasing budget revenues. 
+
+All proposals are gathered in 4 groups - they are either aimed at:
+
+# reducing the import of highly polluting second-hand vehicles;
+# increasing the attractiveness of operating zero-emission and low-emission vehicles;
+# developing at increasing the attractiveness of purchasing new zero-emission and low-emission vehicles;
+# developing charging infrastructure.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Excise duty reform''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+The proposed excise duty reform aims at discouraging buyers from purchasing old and polluting cars (imported second-hand car market) and cars with the highest CO2 emissions (new car market). Zero emission vehicles are already exempted from this tax. The new excise duty will be calculated based on the engine size, Euro norms, CO2 emissions and the weight of the vehicle, according to the formula:
+
+&lt;center&gt;''//Х * Z * M + Y//'',&lt;/center&gt;
+
+where 
+
+* Х - current excsie duty (3,1% for engines with the capacity up to 2 liters / 18,6% for engines with the capacity bigger than 2 liters); 
+* Z - fixed value 1,5 (for cars with average CO2 emissions exceeding 50g/km); 
+* M - vehicle weight/1000; 
+* Y – fixed fee depending on the Euro standard (Euro 1 - 9000 PLN; Euro 2 - 8000 PLN; Euro 3 - 7000 PLN; Euro 4 - 6000 PLN; Euro 5 - 5000 PLN; Euro 6 - 2000 PLN; Euro 6d temp and higher - 0 PLN).
+Some examples of implementation of the proposed formula are shown in fig. 2.
+
+&lt;center&gt;[img width=75% [2.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 2.'' Examples of implementation of excise duty reform &lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Stimulation of the attractiveness of operating zero-emission and low-emission vehicles''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Anti-smog tax for passenger vehicles'': 
+
+The new tax will be charged annually by the municipality and would remain its own income. Each municipality will be able to decide the amount of the tax. The minimum amount of the tax should amount to 50 PLN and it should increase depending EURO norms, the weight of the car and powertrain technology. Zero emission vehicles would be excluded from this new tax. To calculate this tax, the following formula was suggested:
+
+&lt;center&gt;''//Euro norm * Р * М//'',&lt;/center&gt;
+
+where 
+
+* Р - engine coefficient (for petrol/CNG/LPG engines  - 1, for diesel engines - 2); 
+* М - vehicle weight/1000; 
+* Euro norm coefficient is set as follows: 
+** Euro 1 = min. 50 PLN - 300 PLN 
+** Euro 2 = min. 50 PLN - 250 PLN 
+** Euro 3 = min. 50 PLN - 200 PLN 
+** Euro 4 = min. 50 PLN - 150 PLN 
+** Euro 5 = min. 50 PLN - max. 100 PLN
+** Euro 6 = min. 50 PLN - max. 50 PLN
+
+Some examples of implementation of the proposed anti-smog tax formula are shown in fig. 3.
+
+&lt;center&gt;[img width=75% [3.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 3.'' Some examples of the proposed anti-smog tax implementation&lt;/center&gt;
+
+''Increased limit of depreciation charges for LEVs'': 
+
+The companies propose to increase the amount of car depreciation charges that may be included in tax-deductible costs for
+LEVs from currently 150,000 PLN to 200,000 PLN. The limit of 225,000 PLN for ZEVs will not be changed.
+
+''Gradually decreasing the car depreciation charges that may be included in tax-deductible costs'': 
+
+The companies propose an annual reduction of the limits of car depreciation charges for ICE cars and PHEVs. As a result, tax deductions for ICE cars would be reduced to zero by the year 2033. (fig. 4)
+
+&lt;center&gt;[img width=85% [4.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 4.'' Prognosed gradual change in the depreciation charges for different types of cars for 2020-2040&lt;/center&gt;
+
+''100% deduction of operating expenses for ZEVs'': 
+
+Raising the level of deductible operating expenses to up to 100% for ZEVs and to 75% for LEVs, while decreasing the level for ICEs to 50% (from currently 75%).
+
+''Closing the gap on diesel taxes - equalising fuel tax on diesel and petrol'':
+
+The companies propose to gradually increase the excise duty on diesel fuel. By 2030 the level of diesel taxation should reach the level of excise duty on petrol. At the current moment the excise duty on diesel is 24% lower than the excise duty on petrol.
+
+''Lowering road tolls for ZEVs'': 
+
+Zero emission passenger cars, which are paying charges for using motorways, should be excluded from these charges. Zero emission buses and vehicles with a weight over 3,5 tons, which pay charges for using toll roads (motorways, express ways and national roads) should pay a charge reduced by 75%.
+
+''New parking policy in cities'': 
+
+The companies propose to improve conditions for ZEVs and LEVs in paid parking zones in cities. Residents of areas within paid parking zones would be allowed to purchase only one annual parking ticket for a car per apartment (today this number is unlimited), whereas owners of ZEVs and LEVs would be excluded from this regulation.
+
+''Introducing a fine for removing devices from the vehicle that reduce its emissivity'': 
+
+Imposing an administrative fine in the amount of PLN 10,000.00 for an owner whose vehicle does not have devices to reduce its emissivity (like DPF-filters or catalytic converter). Along with the fine the vehicle’s registration certificate should be retained until the device is re-installed.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Stimulation of the attractiveness of purchasing new zero-emission and low-emission vehicles''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Environmental Levy for passenger cars'': 
+
+The companies propose to introduce a new environmental levy for all vehicles except for zero-emission vehicles, which will be charged, when registering a vehicle. This levy would be based upon the powertrain technology the highest levy would be paid by diesel cars (800 PLN – approx. 200 euro), the second highest by other ICE cars (400 PLN – aprx. 100 euro), and the third highest by LEVs (200 PLN). The collected funds would raise revenue for the 'Low-Emission Transportation Fund', which is used to finance the development of electric mobility in Poland.
+
+''Lower VAT on ZEVs and LEVs'': 
+
+The companies propose to apply a preferential VAT rate to ZEVs (5%) and LEVs with a range of at least 80 km using only electric range (7%). This proposal requires a derogation from the European Commission.
+
+''100% VAT deduction for purchasing ZEVs and LEVs'': 
+
+Increasing the level of VAT deductions for entities conducting business to up to 100% in the case of purchasing zero-emissions vehicles and 75% in the case of purchasing LEVs, while simultaneously decreasing the level of VAT deductions for purchasing ICE cars from currently 50% to 25%.
+
+''Gradually decreasing the level of VAT deduction for ICE cars'': 
+
+The companies propose a 25% reduction of the level of VAT deduction and a gradual decrease of this level by 2,5% per year. In this way, the possibility of deducting VAT on the purchase of ICE cars will be withdrawn by 2031. For low-emission cars, we suggest introducing a 75% VAT deduction and a gradual decrease by 1% per year (fig. 5).
+
+&lt;center&gt;[img width=85% [5.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 5.'' Gradual decrease of the level of VAT deduction for ICE and LEV cars&lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Development of charging infrastructure''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Tax breaks in income tax for private persons for installing domestic charging points'': 
+
+All investments concerned with installing a private charging point up to the amount of 10,000 PLN (approx. 2200 EUR) will be eligible for a tax deduction.
+
+''Charging points on public and private parking'': 
+
+Implementation of the Energy Performance of Buildings Directive (directive 2018/844) by introducing a requirement of readiness of parking spaces for the installation of charging points in residential buildings with at least 10 internal or external parking spaces. In addition, we propose a gradual introduction of obligatory electric chargers in public parking lots from 2025. By the year 2031 at least 30% of all parking spaces must have access to a charging point.
+
+''Dedicated tariff for high-power charging points'': 
+
+In order to facilitate investments in high power public charging stations we propose to introduce a regulation which obliges energy utility companies to introduce a tariff dedicated to high-power charging station operators. This tariff aims to reduce the fixed costs of power distribution and increase variable costs related to energy consumption, thereby improving the profitability of investments in new charging stations.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''In place of conclusion''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+!!! ''Proposals for regulatory solutions to issue of pollution from second-hand vehicles''
+
+Expert assessment of the effectiveness and impact of proposals on the public budget (Fig. 6) identifies 4 groups of factors:
+
+# Reduction of import of highly polluting second-hand vehicles (1)
+# Increasing the attractiveness of operating LEVs and ZEVs (2-9)
+# Increasing the attractiveness of purchasing new LEVs and ZEVs (10-13)
+# Development of charging infrastructure (14-16)
+
+&lt;center&gt;[img width=85% [6.png]]&lt;/center&gt;
+
+&lt;center&gt;''Fig. 6.'' Expert assessment of effectiveness and impact of proposals on public budget&lt;/center&gt;
+
+!!! ''Unresolved issues and unanswered questions''
+
+The development of ZEVs, however, leaves a number of unanswered questions that still need to be addressed, in particular:
+
+# Comparison of emissions (in kg per passenger kilometer) between ICE cars (or LEVs) and ZEVs, taking into account sources of electricity based on fossil fuels (oil, gas, coal power plants etc.) and large losses in the grid.
+# Encouraging the purchase of individual cars with zero emissions does not solve several global problems. e.g. reducing production and operating costs per passenger-kilometer, or reducing congestion in megacities.
+# Impact on the poorer categories of people who use cheap second-hand cars. Will people be able to afford a car with low or zero emissions? How may the proposed tax reform affect mobility, especially for poorer people?
+# The expediency of taking into account the issue of re-equipment of vehicles to reduce NOx in addition to the European standard when calculating the &quot;taxation of imported vehicles&quot;, given the fact that the number of imported ICE cars with may increase with the start of any incentive packages.
+&quot;&quot;&quot;&gt;&gt;</pre>
 </div>
 <div created="20200319124407456" modified="20200330073930900" swap="Громадський проект розумного міста" tags="Eng" title="Smart city public project" revision="0" bag="default">
 <pre>&lt;style&gt; td { max-width: 600px; } &lt;/style&gt;
@@ -11145,11 +11372,11 @@ The aim is to create a tool for the actual reduction of motor transport emission
 |^ ''TOTAL'' |&lt;|^ ''1 194 000''|
 </pre>
 </div>
-<div created="20200321073930425" icon="$:/favicon.ico" modified="20200516201008933" tags="" title="Spotting the vehicles - highest air polluters" revision="0" bag="default">
+<div created="20200321073930425" icon="$:/favicon.ico" modified="20200526145558645" tags="" title="Spotting the vehicles - highest air polluters" revision="0" bag="default">
 <pre>!! ''Smart city public project -- Громадський проект розумного міста''
 
 &lt;!--{{$:/plugins/boa/langswap/Content-Зміст}}--&gt;
-&lt;&lt;tabs &quot;$:/plugins/boa/langswap/Content $:/plugins/boa/langswap/Зміст&quot; &quot;$:/plugins/boa/langswap/Content&quot;&gt;&gt;</pre>
+&lt;&lt;tabs &quot;$:/plugins/boa/langswap/content-Eng $:/plugins/boa/langswap/content-Ukr&quot; &quot;$:/plugins/boa/langswap/content-Eng&quot;&gt;&gt;</pre>
 </div>
 <div created="20190925190449505" list="[[Завдання № 01]] [[Завдання № 02]]" modified="20190926144508278" title="Task" revision="0" bag="default">
 <pre></pre>
@@ -11164,7 +11391,7 @@ The aim is to create a tool for the actual reduction of motor transport emission
 <div _canonical_uri="./images/Technical%2520characteristics.svg" created="20200320231102986" modified="20200320231141852" swap="Технічні характеристики.svg" tags="Eng" title="Technical characteristics.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
 </div>
-<div color="#eae7c1" created="20200330074412808" icon="$:/plugins/boa/langswap/img/UKR.svg" list="[[Проблема і рішення]] [[Основні забруднювачі.svg]] [[Принцип дії.svg]] [[Збір даних.svg]] [[Технічні характеристики.svg]] [[Робочі місця оператора.svg]] [[Примусові заходи.svg]] [[Громадський проект розумного міста]]" modified="20200330074415342" swap="Eng" tags="$:/tags/ViewTemplate" title="Ukr" revision="0" bag="default">
+<div color="#eae7c1" created="20200526145843875" icon="$:/plugins/boa/langswap/img/Ukr.svg" list="[[Проблема і рішення]] [[Основні забруднювачі.svg]] [[Принцип дії.svg]] [[Збір даних.svg]] [[Технічні характеристики.svg]] [[Робочі місця оператора.svg]] [[Примусові заходи.svg]] [[Громадський проект розумного міста]] [[Політика у сфері імпорту вживаних авто]]" modified="20200526145848121" swap="Eng" tags="$:/tags/ViewTemplate" title="Ukr" revision="0" bag="default">
 <pre>&lt;&lt;simple-navigation tag:Ukr&gt;&gt;</pre>
 </div>
 <div created="20200317192747244" modified="20200330073825974" swap="Smart city public project" tags="Ukr" title="Громадський проект розумного міста" revision="0" bag="default">
@@ -11224,8 +11451,197 @@ The aim is to create a tool for the actual reduction of motor transport emission
 <div _canonical_uri="./images/%25D0%2597%25D0%25B1%25D1%2596%25D1%2580%2520%25D0%25B4%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2585.svg" created="20200318002917505" modified="20200320230916464" swap="Data collection.svg" tags="Ukr" title="Збір даних.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
 </div>
+<div created="20200526145703444" icon="$:/favicon.ico" modified="20200526145706517" swap="Content" tags="Ukr" title="Зміст" revision="0" bag="default">
+<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
+&lt;&lt;list-links &quot;[list[Ukr]] -[[Зміст]]&quot; &quot;ol&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;!--
+&lt;&lt;alert-warning &quot;Вставте тут [[Зміст]] власну таблицю змісту або щось подібне&quot;&gt;&gt;
+--&gt;
+</pre>
+</div>
 <div _canonical_uri="./images/%25D0%259E%25D1%2581%25D0%25BD%25D0%25BE%25D0%25B2%25D0%25BD%25D1%2596%2520%25D0%25B7%25D0%25B0%25D0%25B1%25D1%2580%25D1%2583%25D0%25B4%25D0%25BD%25D1%258E%25D0%25B2%25D0%25B0%25D1%2587%25D1%2596.svg" created="20200318003053982" modified="20200320230521726" swap="High emitters.svg" tags="Ukr" title="Основні забруднювачі.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
+</div>
+<div created="20200526081451250" modified="20200602092945915" swap="Policy regarding the second-hand cars import" tags="Ukr" title="Політика у сфері імпорту вживаних авто" revision="0" bag="default">
+<pre>&lt;&lt;slider label:&quot;''Вебінар''&quot; status:open labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+13го травня 2020 року, регіональною Європейською компанією //T&amp;E// (Transport and Environment), що є ведучою у галузі чистого транспорту в Європі, а також її польським партнером, компанією FPPE (Fundacja Promocji Pojazdów Elektrycznych або Electric Vehicles Promotion Foundation) було проведено вебінар під назвою “Controlling the import of polluting second-hand cars to Central and Eastern Europe (Контролювання імпорту забруднюючих уживаних авто до Центральної та Східної Європи)”, присвячений проведеному даними компаніями дослідженню росту кількості забруднюючих уживаних авто та відповідному росту атмосферного забруднення, а також запропонованим економічно-політичним шляхам розв’язання даної проблеми, на прикладі Польщі. 
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Вступні положення та обґрунтування''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+Згідно проведеного дослідження, кількість легкових авто у країні з 1990 до 2017 років зросла з 5261 до 22504 автівок, що наразі складає 593 автівки на 1000 чол. населення. Станом на 2017 рік це один з найвищих показників у Євросоюзі - шосте місце після Люксембургу (670), Італії (625), Фінляндії (619), Мальти (613) і Кіпру (609). 
+
+Відповідно до трендів росту кількості автівок спостерігається також значний ріст атмосферного забруднення, зокрема, такими сполуками, як парниковий газ CO2 (спостерігається збільшення на 300% у період 1990-2017 рр.) та NOx.
+
+У 2004 році відбувся вибухоподібний стрибок імпорту вживаних авто до Польщі - майже у 20 разів у річному вимірі. Це сталося не випадково, але внаслідок вступу Польщі до ЄС у цьому ж році. Відповідно, іншим (негативним) наслідком цього стало переважання на дорогах автівок з пробігом більше ніж 10 років (рис. 1) згідно з даними за 2017 рік.
+
+&lt;center&gt;[img[1.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 1.'' Легкові авто за віком (у % від загальної кількості), 2017 р. &lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Екологічна податкова реформа у транспортному секторі''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+Для вирішення проблеми забруднення повітря автотранспортом, T&amp;E та FPPE спільно розробили та проаналізували 16 політико-економічних пропозицій - важелів впливу, покликаних значно зменшити використання традиційних автівок, а надто уживаних, та підвищити популярність транспортних засобів з низькою (low-emission vehicles або LEV) та нульовою (zero-emission vehicles або ZEV) емісією. 
+
+Серед цих пропозицій зазначені:
+
+* Блокування імпорту старих вживаних легкових автомобілів;
+* Використання принципу бонус-малус (“кнут і пряник”);
+* Підтримка ринку електроавтомобілів;
+* Підвищення доходів у держбюджет. 
+
+Всі пропозиції поділяються на 4 основні групи - ті, що спрямовані на:
+
+# скорочення імпорту високозабруднюючих вживаних транспортних засобів;
+# підвищення привабливості експлуатації транспортних засобів з нульовою та низькою емісією;
+# підвищення привабливості придбання нових автомобілів з нульовою та низькою емісією;
+# розвиток зарядної інфраструктури для електромобілів.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Реформа акцизного збору''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+Запропонована реформа акцизного збору має на меті відмовити покупців купувати старі та забруднюючі автомобілі (серед імпортних вживаних автомобілів) та автомобілі з найвищими викидами CO2 (серед нових автомобілів). Транспортні засоби з нульовою емісією вже звільнені від цього податку. Новий акцизний збір запропоновано обчислювати, виходячи з об’єму двигуна, норм Євро для палива, викидів CO2 та ваги транспортного засобу, згідно формули:
+
+&lt;center&gt;''//Х * Z * M + Y//'',&lt;/center&gt;
+
+де 
+
+* Х - нинішній акцизний збір (3,1% для двигунів ємністю до 2 л / 18,6% для двигунів ємністю більше 2л); 
+* Z - фіксована величина 1,5 (для авто з середніми викидами СО2, що перевищують 50 г/км); 
+* M - вага транспортного засобу/1000; 
+* Y - фіксована плата, що залежить від стандарту Євро (Євро 1 - 9000 PLN, Євро 2 - 8000 PLN, Євро 3 - 7000 PLN, Євро 4 - 6000 PLN, Євро 5 - 5000 PLN, Євро 6 - 2000 PLN та Євро 6d temp та вище - 0 PLN).
+
+Декілька прикладів застосування пропонованої формули представлено на рис. 2.
+
+&lt;center&gt;[img width=75% [2.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 2.'' Приклади використання реформи акцизного збору&lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Стимуляція привабливості експлуатації транспортних засобів з нульовою та низькою емісією''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Податок проти смогу на легкові транспортні засоби'': 
+
+Новий податок, що пропонується стягувати щорічно місцевою владою і залишатиметься її власним доходом. Місцева влада визначитиме суму податку сама. Мінімальна сума податку повинна становити 50 PLN, і має збільшуватися в залежності від норм Євро, ваги автомобіля та інших факторів. Транспортні засоби з нульовою емісією будуть виключені з цього нового податку. Для розрахунку податку пропонується формула:
+
+&lt;center&gt;''//Стандарт Євро * Р * М//'',&lt;/center&gt;
+
+де 
+
+* Р - коефіцієнт двигуна (для двигунів на бензині, стисненому чи зрідженому газі  - 1, для двигунів на дизелі - 2); 
+* М - вага транспортного засобу/1000; 
+* коефіцієнт для Євро стандарту встановлюється наступним чином: 
+** Євро 1 = min. 50 PLN - 300 PLN 
+** Євро 2 = min. 50 PLN - 250 PLN 
+** Євро 3 = min. 50 PLN - 200 PLN 
+** Євро 4 = min. 50 PLN - 150 PLN 
+** Євро 5 = min. 50 PLN - max. 100 PLN
+** Євро 6 = min. 50 PLN - max. 50 PLN
+
+Декілька прикладів застосування пропонованої формули представлено на рис. 3.
+
+&lt;center&gt;[img width=75% [3.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 3.'' Деякі приклади використання податку проти смогу&lt;/center&gt;
+
+''Збільшений ліміт амортизаційних відрахувань для транспортних засобів з низькою емісією'': 
+
+Пропонується збільшити розмір амортизаційних відрахувань, що можуть бути включені до складу податкових витрат для автомобілів з низькою емісією з 150 000 PLN до 200 000 PLN. Ліміт 225 000 PLN для транспортних засобів з нульовою емісією не буде змінено.
+
+''Поступове зменшення ліміту амортизаційних відрахувань, які можуть бути включені до складу податкових витрат автомобілів'': 
+
+пропонується щорічне зниження лімітів амортизаційних відрахувань для автомобілів для типу ICE (ДВЗ) та PHEV (гібридний електромобіль). В результаті податкові відрахування для автомобілів з ДВЗ до 2033 року пропонується зменшити до нуля (рис. 4)
+
+&lt;center&gt;[img width=85% [4.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 4.'' Прогнозовані поступові зміни у розмірах податкових відрахувань для різних типів авто на 2020-2040 рр.&lt;/center&gt;
+
+''100% операційних витрат, що підлягають відрахуванню, на транспортні засоби з нульовою емісією'': 
+
+Підвищення рівня операційних витрат, що підлягають відрахуванню, до 100% для транспортних засобів з нульовою та до 75% - з низькою емісією, при зниженні рівня для ДВЗ до 50% (з 75% на даний момент).
+
+''Закриття розриву податків на дизельне паливо - вирівнювання податків на дизель та бензин'':
+
+Пропонується поступово збільшувати акцизний збір на дизельне паливо. До 2030 р. рівень оподаткування дизельним паливом повинен досягти рівня акцизного збору на бензин. На даний момент акцизний збір на дизельне паливо є на 24% нижчим, ніж акцизний збір на бензин.
+
+''Зниження плати за проїзд платними дорогами для транспортних засобів з нульовою емісією'': 
+
+З даного виду зборів повинні бути виключені легкові автомобілі з нульовими викидами, що сплачують плату за користування автомобільними дорогами. Плата для автобусів та транспортних засобів з нульовими викидами, вагою понад 3.5 тонни, що користуються платними дорогами (автостради, експреси та дороги загального користування), має бути зменшена на 75%.
+
+''Нова політика паркування у містах'': 
+
+Пропонується покращити умови для транспортних засобів з нульовою та низькою емісією у зонах платних парковок у містах. Мешканцям районів у зонах платної парковки дозволяється придбати лише один річний квиток на паркування автомобіля на квартиру (сьогодні ця кількість необмежена), тоді як власники авто з нульовою або низькою емісією будуть виключені із цього регламенту.
+
+''Введення штрафу за вилучення з транспортного засобу пристроїв, що знижують емісію'': 
+
+Накладення адміністративного штрафу в розмірі 10 000 PLN для власників, у чиїх транспортних засобах відсутні пристрої для зниження емісії (наприклад, DPF-фільтри або каталітичний перетворювач). Разом із цим обмеженням, також слід утримувати свідоцтво про реєстрацію транспортного засобу до повторної установки пристрою (заборона на користування/пересування).
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Стимуляція привабливості придбання нових автомобілів з нульовою та низькою емісією''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Екологічний збір за легкові автомобілі'': 
+
+Пропонується запровадити новий екологічний збір для всіх транспортних засобів, за винятком транспортних засобів з нульовою емісією, який стягуватиметься при реєстрації транспортного засобу. Найвищий збір сплачуватиметься дизельними автомобілями (800 PLN - приблизно 200 EUR),  потім - інші типи автомобілів з ДВЗ (400 PLN - приблизно 100 EUR), а третіми йдуть транспортні засоби з низькою емісією (200 PLN). Зібрані кошти підуть у Фонд транспорту з низькою емісією, який використовується для фінансування розвитку електричної мобільності в Польщі.
+
+''Зниження ПДВ на транспортні засоби з нульовою та низькою емісією'': 
+
+Пропонується застосувати пільгову ставку ПДВ до транспортних засобів з нульовою (5%) та низькою емісією з запасом ходу не менше 80 км, використовуючи лише електричний запас (7%). Ця пропозиція вимагає послаблення нормативів встановлених Європейською комісією.
+
+''100% відрахування ПДВ для придбання транспортних засобів з нульовою або низькою емісією'': 
+
+Підвищення рівня відрахування ПДВ для суб'єктів господарювання до 100% у випадку придбання транспортних засобів з нульовою емісією та до 75% у випадку придбання засобів з низькою емісією, одночасно знижуючи рівень відрахування ПДВ на придбання автомобілів з ДВЗ від нинішніх 50% до 25%.
+
+''Поступове зменшення рівнів вирахувань ПДВ для автомобілів з ДВЗ'': 
+
+Пропонується зниження рівнів вирахувань ПДВ на 25% та поступове зниження цього рівня на 2,5% на рік. Таким чином, можливість вирахувань ПДВ на придбання автомобілів з ДВЗ зникне до 2031 року. Для автомобілів із низьким рівнем викидів ми пропонуємо запровадити вирахування 75% ПДВ та поступове зменшення на 1% на рік (рис. 5).
+
+&lt;center&gt;[img width=85% [5.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 5.'' Поступове зменшення рівнів відрахувань ПДВ для авто з ДВЗ та низькою емісією&lt;/center&gt;
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Розвиток зарядної інфраструктури для електромобілів''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+''Податкові пільги з податку на прибуток для приватних осіб за встановлення побутових зарядних пунктів'': 
+
+Усі інвестиції, пов’язані з встановленням приватного зарядного пункту на суму до 10000 PLN (приблизно 2200 EUR), матимуть право на зменшення податку.
+
+''Зарядні пункти на громадській та приватній парковці'': 
+
+Імплементація Євродирективи про енергетичні характеристики будівель (European Directive 2018/844) шляхом запровадження вимоги готовності паркувальних місць до встановлення пунктів зарядки в житлових будинках, що мають не менше 10 внутрішніх або зовнішніх паркувальних місць. Крім того, пропонується поступове запровадження обов'язкових електричних зарядних пристроїв на громадських стоянках з 2025 року. До 2031 року принаймні 30% усіх паркувальних місць повинні мати доступ до зарядних пристроїв.
+
+''Спеціальний тариф на пункти зарядки високої потужності'': 
+
+Для того, щоб полегшити інвестиції у державні зарядні станції високої потужності, пропонується ввести регламент, який зобов’язує енерговиробничі компанії вводити пільговий тариф, призначений для операторів зарядки високої потужності. Цей тариф спрямований на зниження постійних витрат на розподіл електроенергії та збільшення змінних витрат, пов'язаних із споживанням енергії, тим самим підвищуючи прибутковість інвестицій у нові зарядні станції.
+&quot;&quot;&quot;&gt;&gt;
+
+&lt;&lt;slider label:&quot;''Замість висновків''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+
+!!! ''Пропозиції нормативного вирішення проблем забруднення від вживаного автотранспорту''
+
+Експертна оцінка ефективності та впливу пропозицій на публічний бюджет (рис. 6) виділяє 4 групи факторів:
+
+# Скорочення імпорту високозабруднюючих вживаних транспортних засобів (1)
+# Підвищення привабливості експлуатації транспортних засобів з нульовою та низькою емісією (2-9)
+# Підвищення привабливості придбання нових автомобілів з нульовою та низькою емісією (10-13)
+# Розвиток зарядної інфраструктури для електромобілів (14-16)
+
+&lt;center&gt;[img width=85% [6.png]]&lt;/center&gt;
+
+&lt;center&gt;''Рис. 6.'' Експертна оцінка ефективності та впливу пропозицій на публічний бюджет&lt;/center&gt;
+
+!!! ''Питання без відповіді, що потребують свого рішення''
+
+Розвиток транспортних засобів з нульовою емісією, тим не менш, залишає низку питань без відповіді, які все ще потребують свого рішення, зокрема:
+
+# Порівняння викидів (у кг на пасажирський кілометр) між авто з ДВЗ (або авто з низькою емісією) та авто з нульовою емісією, враховуючи джерела електроенергії на основі викопного палива (нафтові, газові, вугільні електростанції) та великі втрати в електромережі.
+# Заохочення придбання індивідуальних автомобілів з нульовою емісією не вирішує декількох глобальних проблем: зменшення виробничих і експлуатаційних витрат на пасажиро-кілометр, зниження рівня заторів у мегаполісах.
+# Вплив на бідніші категорії людей, які користуються дешевими уживаними автомобілями. Чи зможуть люди дозволити собі авто з низькою або нульовою емісією? Як пропонована податкова реформа може вплинути на мобільність, особливо бідних людей?
+# Доцільність врахування питання переобладнання транспортних засобів для зниження NOx на додаток до Євростандарту при розрахунку &quot;оподаткування імпортного транспорту&quot;, зважаючи на той факт, що кількість імпортованих авто з ДВЗ може зрости з початком будь-яких пакетів стимулювання.
+&quot;&quot;&quot;&gt;&gt;</pre>
 </div>
 <div _canonical_uri="./images/%25D0%259F%25D1%2580%25D0%25B8%25D0%25BC%25D1%2583%25D1%2581%25D0%25BE%25D0%25B2%25D1%2596%2520%25D0%25B7%25D0%25B0%25D1%2585%25D0%25BE%25D0%25B4%25D0%25B8.svg" created="20200318002954174" modified="20200320231509470" swap="Compulsory measures.svg" tags="Ukr" title="Примусові заходи.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>

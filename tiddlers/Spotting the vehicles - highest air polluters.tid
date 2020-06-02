@@ -1,10 +1,10 @@
 created: 20200321073930425
 icon: $:/favicon.ico
-modified: 20200516201008933
+modified: 20200526145558645
 tags: 
 title: Spotting the vehicles - highest air polluters
 
 !! ''Smart city public project -- Громадський проект розумного міста''
 
 <!--{{$:/plugins/boa/langswap/Content-Зміст}}-->
-<<tabs "$:/plugins/boa/langswap/Content $:/plugins/boa/langswap/Зміст" "$:/plugins/boa/langswap/Content">>
+<<tabs "$:/plugins/boa/langswap/content-Eng $:/plugins/boa/langswap/content-Ukr" "$:/plugins/boa/langswap/content-Eng">>

@@ -1,0 +1,201 @@
+created: 20200601123303429
+modified: 20200602092808622
+swap: Політика у сфері імпорту вживаних авто
+tags: Eng
+title: Policy regarding the second-hand cars import
+
+<<slider label:"''Webinar''" status:open labelClass:"alert alert-secondary" src:"""
+
+On 13th of May 2020, regional EU company //T&E// (Transport and Environment), leading in the field of clean transportation in Europe, along with its partner, Polish company FPPE (Fundacja Promocji Pojazdów Elektrycznych or Electric Vehicles Promotion Foundation) held a webinar, under the title “Controlling the import of polluting second-hand cars to Central and Eastern Europe”, devoted to the companies' research of growth in the number of polluting second-hand cars and consequent increase in atmospheric pollution, as well as suggested plitical and economical solutions of this issue, on an example of Poland. 
+""">>
+
+<<slider label:"''Terms and abbreviations''" status:closed labelClass:"alert alert-secondary" src:"""
+
+* CNG - Compressed Natural Gas;
+* CO2 - Carbon dioxide;
+* DPF - Diesel Particular Filter;
+* EU - European Union;
+* EUR - Euro;
+* ICE - Internal Combustion Engine;
+* LEV - Low Emissions Vehicle (Vehicle emitting less than 50g CO2 per km);
+* LPG - Liquified Petroleum Gas;
+* NOx - Nitrogen oxides;
+* PHEV - Plug-in Hybrid Electric Vehicle;
+* PLN - Polish zloty;
+* VAT - Value Added Tax;
+* ZEV - Zero Emissions Vehicle.
+""">>
+
+<<slider label:"''Introductory provisions and justification''" status:closed labelClass:"alert alert-secondary" src:"""
+
+According to the conducted research, the number of passenger cars in the country increased in years 1990 to 2017, from 5261 to 22504, which currently is 593 cars per 1000 people. As of 2017 - this index was one of the highest in the EU - placed 6th, after Luxemburg (670), Italy (625), Finland (619), Malta (613) and Cyprus (609). 
+
+In accordance with the growth trends of the number of cars, there is also a significant increase in atmospheric pollution levels, particularly, with such compounds, as greenhouse gas CO2 (observed increase by 300% in the period of 1990-2017) and NOx.
+
+In 2004, there was an explosion-like increase of the import of second-hand cars into Poland - almost 20 times, in yearly scale. It was not a coincidence, but a cosequence of Poland being accepted into the EU the same year. Accordingly, another (negative) effect of this acception is the dominance of cars with mileage over then 10 years (fig. 1) as of the data of 2017.
+
+<center>[img[1.png]]</center>
+
+<center>''Fig. 1.'' Passenger cars by age (in % of the general number), 2017. </center>
+""">>
+
+<<slider label:"''Environmental tax reform in transportation sector''" status:closed labelClass:"alert alert-secondary" src:"""
+
+In order to solve the issue of atmospheric pollution from automobile transport, T&E та FPPE jointly developed and analyzed 14 political and economic proposals - leverages, which are supposed to reduce the use of traditional cars immensly, especially second-hand ones, all the while promoting low-emission vehicles (LEVs) and zero-emission vehicles (ZEVs). 
+
+Main goals of those proposals are:
+
+* Blocking the import of old second-hand cars;
+* Bonus-malus principle implementation (“the carrot and the stick”);
+* Supporting the elctric car market;
+* Increasing budget revenues. 
+
+All proposals are gathered in 4 groups - they are either aimed at:
+
+# reducing the import of highly polluting second-hand vehicles;
+# increasing the attractiveness of operating zero-emission and low-emission vehicles;
+# developing at increasing the attractiveness of purchasing new zero-emission and low-emission vehicles;
+# developing charging infrastructure.
+""">>
+
+<<slider label:"''Excise duty reform''" status:closed labelClass:"alert alert-secondary" src:"""
+
+The proposed excise duty reform aims at discouraging buyers from purchasing old and polluting cars (imported second-hand car market) and cars with the highest CO2 emissions (new car market). Zero emission vehicles are already exempted from this tax. The new excise duty will be calculated based on the engine size, Euro norms, CO2 emissions and the weight of the vehicle, according to the formula:
+
+<center>''//Х * Z * M + Y//'',</center>
+
+where 
+
+* Х - current excsie duty (3,1% for engines with the capacity up to 2 liters / 18,6% for engines with the capacity bigger than 2 liters); 
+* Z - fixed value 1,5 (for cars with average CO2 emissions exceeding 50g/km); 
+* M - vehicle weight/1000; 
+* Y – fixed fee depending on the Euro standard (Euro 1 - 9000 PLN; Euro 2 - 8000 PLN; Euro 3 - 7000 PLN; Euro 4 - 6000 PLN; Euro 5 - 5000 PLN; Euro 6 - 2000 PLN; Euro 6d temp and higher - 0 PLN).
+Some examples of implementation of the proposed formula are shown in fig. 2.
+
+<center>[img width=75% [2.png]]</center>
+
+<center>''Fig. 2.'' Examples of implementation of excise duty reform </center>
+""">>
+
+<<slider label:"''Stimulation of the attractiveness of operating zero-emission and low-emission vehicles''" status:closed labelClass:"alert alert-secondary" src:"""
+
+''Anti-smog tax for passenger vehicles'': 
+
+The new tax will be charged annually by the municipality and would remain its own income. Each municipality will be able to decide the amount of the tax. The minimum amount of the tax should amount to 50 PLN and it should increase depending EURO norms, the weight of the car and powertrain technology. Zero emission vehicles would be excluded from this new tax. To calculate this tax, the following formula was suggested:
+
+<center>''//Euro norm * Р * М//'',</center>
+
+where 
+
+* Р - engine coefficient (for petrol/CNG/LPG engines  - 1, for diesel engines - 2); 
+* М - vehicle weight/1000; 
+* Euro norm coefficient is set as follows: 
+** Euro 1 = min. 50 PLN - 300 PLN 
+** Euro 2 = min. 50 PLN - 250 PLN 
+** Euro 3 = min. 50 PLN - 200 PLN 
+** Euro 4 = min. 50 PLN - 150 PLN 
+** Euro 5 = min. 50 PLN - max. 100 PLN
+** Euro 6 = min. 50 PLN - max. 50 PLN
+
+Some examples of implementation of the proposed anti-smog tax formula are shown in fig. 3.
+
+<center>[img width=75% [3.png]]</center>
+
+<center>''Fig. 3.'' Some examples of the proposed anti-smog tax implementation</center>
+
+''Increased limit of depreciation charges for LEVs'': 
+
+The companies propose to increase the amount of car depreciation charges that may be included in tax-deductible costs for
+LEVs from currently 150,000 PLN to 200,000 PLN. The limit of 225,000 PLN for ZEVs will not be changed.
+
+''Gradually decreasing the car depreciation charges that may be included in tax-deductible costs'': 
+
+The companies propose an annual reduction of the limits of car depreciation charges for ICE cars and PHEVs. As a result, tax deductions for ICE cars would be reduced to zero by the year 2033. (fig. 4)
+
+<center>[img width=85% [4.png]]</center>
+
+<center>''Fig. 4.'' Prognosed gradual change in the depreciation charges for different types of cars for 2020-2040</center>
+
+''100% deduction of operating expenses for ZEVs'': 
+
+Raising the level of deductible operating expenses to up to 100% for ZEVs and to 75% for LEVs, while decreasing the level for ICEs to 50% (from currently 75%).
+
+''Closing the gap on diesel taxes - equalising fuel tax on diesel and petrol'':
+
+The companies propose to gradually increase the excise duty on diesel fuel. By 2030 the level of diesel taxation should reach the level of excise duty on petrol. At the current moment the excise duty on diesel is 24% lower than the excise duty on petrol.
+
+''Lowering road tolls for ZEVs'': 
+
+Zero emission passenger cars, which are paying charges for using motorways, should be excluded from these charges. Zero emission buses and vehicles with a weight over 3,5 tons, which pay charges for using toll roads (motorways, express ways and national roads) should pay a charge reduced by 75%.
+
+''New parking policy in cities'': 
+
+The companies propose to improve conditions for ZEVs and LEVs in paid parking zones in cities. Residents of areas within paid parking zones would be allowed to purchase only one annual parking ticket for a car per apartment (today this number is unlimited), whereas owners of ZEVs and LEVs would be excluded from this regulation.
+
+''Introducing a fine for removing devices from the vehicle that reduce its emissivity'': 
+
+Imposing an administrative fine in the amount of PLN 10,000.00 for an owner whose vehicle does not have devices to reduce its emissivity (like DPF-filters or catalytic converter). Along with the fine the vehicle’s registration certificate should be retained until the device is re-installed.
+""">>
+
+<<slider label:"''Stimulation of the attractiveness of purchasing new zero-emission and low-emission vehicles''" status:closed labelClass:"alert alert-secondary" src:"""
+
+''Environmental Levy for passenger cars'': 
+
+The companies propose to introduce a new environmental levy for all vehicles except for zero-emission vehicles, which will be charged, when registering a vehicle. This levy would be based upon the powertrain technology the highest levy would be paid by diesel cars (800 PLN – approx. 200 euro), the second highest by other ICE cars (400 PLN – aprx. 100 euro), and the third highest by LEVs (200 PLN). The collected funds would raise revenue for the 'Low-Emission Transportation Fund', which is used to finance the development of electric mobility in Poland.
+
+''Lower VAT on ZEVs and LEVs'': 
+
+The companies propose to apply a preferential VAT rate to ZEVs (5%) and LEVs with a range of at least 80 km using only electric range (7%). This proposal requires a derogation from the European Commission.
+
+''100% VAT deduction for purchasing ZEVs and LEVs'': 
+
+Increasing the level of VAT deductions for entities conducting business to up to 100% in the case of purchasing zero-emissions vehicles and 75% in the case of purchasing LEVs, while simultaneously decreasing the level of VAT deductions for purchasing ICE cars from currently 50% to 25%.
+
+''Gradually decreasing the level of VAT deduction for ICE cars'': 
+
+The companies propose a 25% reduction of the level of VAT deduction and a gradual decrease of this level by 2,5% per year. In this way, the possibility of deducting VAT on the purchase of ICE cars will be withdrawn by 2031. For low-emission cars, we suggest introducing a 75% VAT deduction and a gradual decrease by 1% per year (fig. 5).
+
+<center>[img width=85% [5.png]]</center>
+
+<center>''Fig. 5.'' Gradual decrease of the level of VAT deduction for ICE and LEV cars</center>
+""">>
+
+<<slider label:"''Development of charging infrastructure''" status:closed labelClass:"alert alert-secondary" src:"""
+
+''Tax breaks in income tax for private persons for installing domestic charging points'': 
+
+All investments concerned with installing a private charging point up to the amount of 10,000 PLN (approx. 2200 EUR) will be eligible for a tax deduction.
+
+''Charging points on public and private parking'': 
+
+Implementation of the Energy Performance of Buildings Directive (directive 2018/844) by introducing a requirement of readiness of parking spaces for the installation of charging points in residential buildings with at least 10 internal or external parking spaces. In addition, we propose a gradual introduction of obligatory electric chargers in public parking lots from 2025. By the year 2031 at least 30% of all parking spaces must have access to a charging point.
+
+''Dedicated tariff for high-power charging points'': 
+
+In order to facilitate investments in high power public charging stations we propose to introduce a regulation which obliges energy utility companies to introduce a tariff dedicated to high-power charging station operators. This tariff aims to reduce the fixed costs of power distribution and increase variable costs related to energy consumption, thereby improving the profitability of investments in new charging stations.
+""">>
+
+<<slider label:"''In place of conclusion''" status:closed labelClass:"alert alert-secondary" src:"""
+
+!!! ''Proposals for regulatory solutions to issue of pollution from second-hand vehicles''
+
+Expert assessment of the effectiveness and impact of proposals on the public budget (Fig. 6) identifies 4 groups of factors:
+
+# Reduction of import of highly polluting second-hand vehicles (1)
+# Increasing the attractiveness of operating LEVs and ZEVs (2-9)
+# Increasing the attractiveness of purchasing new LEVs and ZEVs (10-13)
+# Development of charging infrastructure (14-16)
+
+<center>[img width=85% [6.png]]</center>
+
+<center>''Fig. 6.'' Expert assessment of effectiveness and impact of proposals on public budget</center>
+
+!!! ''Unresolved issues and unanswered questions''
+
+The development of ZEVs, however, leaves a number of unanswered questions that still need to be addressed, in particular:
+
+# Comparison of emissions (in kg per passenger kilometer) between ICE cars (or LEVs) and ZEVs, taking into account sources of electricity based on fossil fuels (oil, gas, coal power plants etc.) and large losses in the grid.
+# Encouraging the purchase of individual cars with zero emissions does not solve several global problems. e.g. reducing production and operating costs per passenger-kilometer, or reducing congestion in megacities.
+# Impact on the poorer categories of people who use cheap second-hand cars. Will people be able to afford a car with low or zero emissions? How may the proposed tax reform affect mobility, especially for poorer people?
+# The expediency of taking into account the issue of re-equipment of vehicles to reduce NOx in addition to the European standard when calculating the "taxation of imported vehicles", given the fact that the number of imported ICE cars with may increase with the start of any incentive packages.
+""">>
