@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800px" height="568px" viewBox="0 0 1084.79 771.17">
+ <g>
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="1080.07" y1="86.04" x2="1080.07" y2= "746.51" />
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="966.4" y1="86.04" x2="966.4" y2= "746.51" />
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="851.75" y1="86.04" x2="851.75" y2= "746.51" />
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="737.1" y1="86.04" x2="737.1" y2= "746.51" />
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="622.44" y1="86.04" x2="622.44" y2= "746.51" />
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="507.79" y1="86.04" x2="507.79" y2= "746.51" />
+  <path fill="#71A6DB" d="M736.61 95.35l-342.98 0c0,7.19 0,14.37 0,21.56l342.98 0c0,-7.19 0,-14.37 0,-21.56z"/>
+  <path fill="#71A6DB" d="M621.95 136.48l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M507.3 178.64l-113.67 0c0,6.86 0,13.72 0,20.58l113.67 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M507.3 219.8l-113.67 0c0,6.86 0,13.72 0,20.58l113.67 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 260.96l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 302.12l-228.32 0c0,6.85 0,13.71 0,20.57l228.32 0c0,-6.86 0,-13.72 0,-20.57z"/>
+  <path fill="#71A6DB" d="M621.95 343.27l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 384.43l-228.32 0c0,7.19 0,14.37 0,21.56l228.32 0c0,-7.19 0,-14.37 0,-21.56z"/>
+  <path fill="#71A6DB" d="M621.95 426.57l-228.32 0c0,6.86 0,13.72 0,20.57l228.32 0c0,-6.85 0,-13.71 0,-20.57z"/>
+  <path fill="#71A6DB" d="M507.3 467.72l-113.67 0c0,6.86 0,13.72 0,20.58l113.67 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 508.88l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M736.61 550.04l-342.98 0c0,6.86 0,13.72 0,20.58l342.98 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 591.19l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M621.95 632.35l-228.32 0c0,6.86 0,13.72 0,20.58l228.32 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#71A6DB" d="M736.61 673.51l-342.98 0c0,6.86 0,13.72 0,20.58l342.98 0c0,-6.86 0,-13.72 0,-20.58z"/>
+  <path fill="#F18C55" d="M736.61 95.35l0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 0 0.98 342.97 0c0,-7.19 0,-14.37 0,-21.56l-342.97 0z"/>
+  <path fill="#F18C55" d="M621.95 137.49c0,6.86 0,13.72 0,20.57l229.31 0c0,-6.85 0,-13.71 0,-20.57l-229.31 0z"/>
+  <path fill="#F18C55" d="M507.3 219.8c0,6.86 0,13.72 0,20.58l229.31 0c0,-6.86 0,-13.72 0,-20.58l-229.31 0z"/>
+  <path fill="#F18C55" d="M621.95 302.12c0,6.85 0,13.71 0,20.57l343.96 0c0,-6.86 0,-13.72 0,-20.57l-343.96 0z"/>
+  <path fill="#F18C55" d="M621.95 384.43c0,7.19 0,14.37 0,21.56l229.31 0c0,-7.19 0,-14.37 0,-21.56l-229.31 0z"/>
+  <path fill="#F18C55" d="M621.95 426.57c0,6.86 0,13.72 0,20.57l114.66 0c0,-6.85 0,-13.71 0,-20.57l-114.66 0z"/>
+  <path fill="#F18C55" d="M507.3 467.72c0,6.86 0,13.72 0,20.58l229.31 0c0,-6.86 0,-13.72 0,-20.58l-229.31 0z"/>
+  <path fill="#F18C55" d="M621.95 591.19c0,6.86 0,13.72 0,20.58l343.96 0c0,-6.86 0,-13.72 0,-20.58l-343.96 0z"/>
+  <path fill="#F18C55" d="M736.61 673.51c0,6.86 0,13.72 0,20.58l114.65 0c0,-6.86 0,-13.72 0,-20.58l-114.65 0z"/>
+  <line fill="none" stroke="#E0E5EB" stroke-width="1.96" stroke-linejoin="round" stroke-miterlimit="22.9256" x1="393.14" y1="86.04" x2="393.14" y2= "746.51" />
+  <g transform="matrix(1 0 0 1 316.737 -285.895)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 199.863 -243.428)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 87.6571 -203.316)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 87.6571 -162.027)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 202.197 -120.738)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 202.197 -79.4481)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 202.197 -37.9616)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 202.197 4.56003)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 202.197 45.8488)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 87.6571 87.1383)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 201.548 127.128)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 316.087 168.417)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 201.548 209.707)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 201.548 250.996)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 316.087 292.286)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 -0.084711 330.446)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="15.16px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 660.356 -285.251)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 431.277 -244.606)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 113.399 -202.511)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 316.737 -162.027)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 232.312 -120.455)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 545.816 -79.4481)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 232.312 -37.8757)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 431.277 4.56003)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 316.737 45.8488)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 316.737 87.1383)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 234.261 127.281)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 345.376 168.571)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 545.167 209.707)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 229.062 251.15)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 430.627 292.286)">
+   <text x="400" y="398.64"  fill="white" font-weight="normal" font-size="17.64px" font-family="Arial Rounded MT Bold">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 -0.084711 330.446)">
+   <text x="400" y="398.64"  fill="black" font-weight="normal" font-size="15.16px" font-family="Arial Rounded MT Bold">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 -10.6844 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">0</text>
+  </g>
+  <g transform="matrix(1 0 0 1 103.856 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">1</text>
+  </g>
+  <g transform="matrix(1 0 0 1 218.395 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">2</text>
+  </g>
+  <g transform="matrix(1 0 0 1 332.935 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">3</text>
+  </g>
+  <g transform="matrix(1 0 0 1 447.475 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">4</text>
+  </g>
+  <g transform="matrix(1 0 0 1 562.015 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">5</text>
+  </g>
+  <g transform="matrix(1 0 0 1 676.554 -330.164)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">6</text>
+  </g>
+  <text x="1.23" y="109.7"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">1. Excise duty reform</text>
+  <text x="1.23" y="150.98"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">2. Anti-smog tax for passenger vehicles</text>
+  <text x="2.02" y="186.24"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">3. Increased limit of depreciation charges for LEVs</text>
+  <text x="1.23" y="226.07"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">4. Gradually decreasing the car depreciation charges</text>
+  <text x="1.23" y="239.03"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">that may be included in tax-deductible costs</text>
+  <text x="1.21" y="267.73"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">5. 100% deduction of operating expenses for ZEVs</text>
+  <text x="2.02" y="309.39"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">6. Closing the gap on diesel taxes - </text>
+  <text x="2.02" y="322.34"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">equalising fuel tax on diesel and petrol</text>
+  <text x="2.02" y="350.07"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">7. Lowering road tolls for ZEVs</text>
+  <text x="1.23" y="398.72"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">8. New parking policy in cities</text>
+  <text x="1.97" y="433.39"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">9. Introducing a fine for removing devices from </text>
+  <text x="1.97" y="446.35"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">the vehicle that reduce its emissivity</text>
+  <text x="" y="481.3"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">10. Environmental Levy for passenger cars</text>
+  <text x="2.02" y="515.74"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">11. Lower VAT on ZEVs and LEVs</text>
+  <text x="1.21" y="556.42"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">12. 100% VAT deduction for purchasing ZEVs and LEVs</text>
+  <text x="1.23" y="598.08"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">13. Gradually decreasing the level of VAT </text>
+  <text x="1.23" y="611.03"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">deduction for ICE cars</text>
+  <text x="1.23" y="639.09"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">14. Tax breaks in income tax for private persons for </text>
+  <text x="1.23" y="652.04"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">installing domestic charging points</text>
+  <text x="2.02" y="687.75"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">15. Charging points on public and private parking</text>
+  <text x="1.85" y="729.04"  fill="#44546A" font-weight="normal" font-size="15.16px" font-family="Calibri">16. Dedicated tariff for high-power charging points</text>
+  <g transform="matrix(1 0 0 1 145.441 -379.369)">
+   <text x="-115.68" y="398.64"  fill="#44546A" font-weight="normal" font-size="28.16px" font-family="Calibri">Expert assessment of effectiveness and impact on public budget of the proposed solutions</text>
+  </g>
+  <path fill="#71A6DB" d="M439.74 757.24c0,3.26 0,6.53 0,9.8l9.8 0c0,-3.27 0,-6.54 0,-9.8l-9.8 0z"/>
+  <g transform="matrix(1 0 0 1 54.762 369.392)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">Solutions' effectiveness</text>
+  </g>
+  <path fill="#F18C55" d="M636.71 757.24c0,3.26 0,6.53 0,9.8l9.8 0c0,-3.27 0,-6.54 0,-9.8l-9.8 0z"/>
+  <g transform="matrix(1 0 0 1 251.784 369.392)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="17.64px" font-family="Calibri">Impact on public budget</text>
+  </g>
+  <g transform="matrix(1 0 0 1 -346.699 -332.806)">
+   <text x="400" y="398.64"  fill="#44546A" font-weight="normal" font-size="19.49px" font-family="Calibri">Proposed solution</text>
+  </g>
+ </g>
+</svg>
