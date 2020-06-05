@@ -224,6 +224,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/keepstate/shiraz/slider-macro/Policy regarding the second-hand cars import/''Webinar''--2094547277</li>
+
 <li>$:/plugins/boa/infoblocks</li>
 
 <li>$:/plugins/boa/langswap</li>
@@ -231,6 +233,8 @@ Error message and password prompt
 <li>$:/plugins/kookma/shiraz</li>
 
 <li>$:/plugins/kookma/shiraz/macros/image-basic</li>
+
+<li>$:/plugins/kookma/shiraz/macros/slider</li>
 
 <li>$:/plugins/kookma/shiraz/styles/misc/edit-buttons</li>
 
@@ -10436,6 +10440,9 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div title="$:/isEncrypted" revision="0" bag="default">
 <pre>no</pre>
 </div>
+<div created="20200605140335496" modified="20200605140335496" title="$:/keepstate/shiraz/slider-macro/Policy regarding the second-hand cars import/''Webinar''--2094547277" revision="0" bag="default">
+<pre>yes</pre>
+</div>
 <div author="oleghbond" core-version="5.1.21" dependents="Shiraz" description="BOA - Infoblocks" list="readme" plugin-type="plugin" title="$:/plugins/boa/infoblocks" type="application/json" version="0.0.2" revision="0" bag="default">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10579,6 +10586,29 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
   &lt;$image source=&lt;&lt;__img__&gt;&gt; tooltip=&lt;&lt;__tooltip__&gt;&gt; alt=&lt;&lt;__alt__&gt;&gt; /&gt; 
   &lt;figcaption&gt;$caption$&lt;/figcaption&gt;
 &lt;/figure&gt; 
+\end</pre>
+</div>
+<div created="20190322161929431" description="Slider macro shows (hides) its content." modified="20200605140304593" tags="$:/tags/Macro" title="$:/plugins/kookma/shiraz/macros/slider" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>\define slider(label, src, labelClass, srcClass)
+&lt;$set name=&quot;revealState&quot; value=&lt;&lt;qualify &quot;$:/keepstate/shiraz/slider-macro/$(currentTiddler)$/$label$&quot;&gt;&gt;&gt;
+&lt;h2 class=&quot;$labelClass$&quot;&gt;
+  &lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;revealState&gt;&gt; text=&quot;yes&quot;&gt;
+    &lt;$button class=&quot;tc-btn-invisible tc-tiddlylink&quot; set=&lt;&lt;revealState&gt;&gt; setTo=&quot;yes&quot;&gt;
+      {{$:/core/images/right-arrow}}
+    &lt;/$button&gt;
+  &lt;/$reveal&gt;
+  &lt;$reveal type=&quot;match&quot; state=&lt;&lt;revealState&gt;&gt; text=&quot;yes&quot;&gt;
+    &lt;$button class=&quot;tc-btn-invisible tc-tiddlylink&quot; set=&lt;&lt;revealState&gt;&gt; setTo=&quot;no&quot;&gt;
+      {{$:/core/images/down-arrow}}
+    &lt;/$button&gt;
+  &lt;/$reveal&gt; 
+  $label$
+&lt;/h2&gt;
+&lt;$reveal type=&quot;match&quot; state=&lt;&lt;revealState&gt;&gt; text=&quot;yes&quot; class=&quot;$srcClass$&quot;&gt;
+
+$src$
+&lt;/$reveal&gt;
+&lt;/$set&gt;
 \end</pre>
 </div>
 <div created="20191029091851469" modified="20200201082022977" tags="$:/tags/Stylesheet" title="$:/plugins/kookma/shiraz/styles/misc/edit-buttons" type="text/css" revision="0" bag="default">
@@ -11126,8 +11156,8 @@ To identify &quot;high emitters&quot; - the individual vehicles that cause the m
 <div _canonical_uri="./images/Operator%2520workplace.svg" created="20200320231247816" modified="20200320231330930" swap="Робочі місця оператора.svg" tags="Eng" title="Operator workplace.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
 </div>
-<div created="20200601123303429" modified="20200602113411161" swap="Політика у сфері імпорту вживаних авто" tags="Eng" title="Policy regarding the second-hand cars import" revision="0" bag="default">
-<pre>&lt;&lt;slider label:&quot;''Webinar''&quot; status:open labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+<div created="20200601123303429" modified="20200605140452037" swap="Політика у сфері імпорту вживаних авто" tags="Eng" title="Policy regarding the second-hand cars import" revision="0" bag="default">
+<pre>&lt;&lt;slider label:&quot;''Webinar''&quot; status:&quot;open&quot; labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
 
 On 13th of May 2020, regional EU company //T&amp;E// (Transport and Environment), leading in the field of clean transportation in Europe, along with its partner, Polish company FPPE (Fundacja Promocji Pojazdów Elektrycznych or Electric Vehicles Promotion Foundation) held a webinar, under the title “Controlling the import of polluting second-hand cars to Central and Eastern Europe”, devoted to the companies' research of growth in the number of polluting second-hand cars and consequent increase in atmospheric pollution, as well as suggested plitical and economical solutions of this issue, on an example of Poland. 
 &quot;&quot;&quot;&gt;&gt;
@@ -11468,11 +11498,11 @@ The aim is to create a tool for the actual reduction of motor transport emission
 <div _canonical_uri="./images/%25D0%259E%25D1%2581%25D0%25BD%25D0%25BE%25D0%25B2%25D0%25BD%25D1%2596%2520%25D0%25B7%25D0%25B0%25D0%25B1%25D1%2580%25D1%2583%25D0%25B4%25D0%25BD%25D1%258E%25D0%25B2%25D0%25B0%25D1%2587%25D1%2596.svg" created="20200318003053982" modified="20200320230521726" swap="High emitters.svg" tags="Ukr" title="Основні забруднювачі.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
 </div>
-<div created="20200526081451250" modified="20200603053226840" swap="Policy regarding the second-hand cars import" tags="Ukr" title="Політика у сфері імпорту вживаних авто" revision="0" bag="default">
-<pre>&lt;&lt;slider label:&quot;''Вебінар''&quot; labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
+<div created="20200526081451250" modified="20200605140439051" swap="Policy regarding the second-hand cars import" tags="Ukr" title="Політика у сфері імпорту вживаних авто" revision="0" bag="default">
+<pre>&lt;&lt;slider label:&quot;''Вебінар''&quot; status:&quot;open&quot; labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
 
 13го травня 2020 року, регіональною Європейською компанією //T&amp;E// (Transport and Environment), що є ведучою у галузі чистого транспорту в Європі, а також її польським партнером, компанією FPPE (Fundacja Promocji Pojazdów Elektrycznych або Electric Vehicles Promotion Foundation) було проведено вебінар під назвою “Controlling the import of polluting second-hand cars to Central and Eastern Europe (Контролювання імпорту забруднюючих уживаних авто до Центральної та Східної Європи)”, присвячений проведеному даними компаніями дослідженню росту кількості забруднюючих уживаних авто та відповідному росту атмосферного забруднення, а також запропонованим економічно-політичним шляхам розв’язання даної проблеми, на прикладі Польщі. 
-&quot;&quot;&quot; status:&quot;open&quot;&gt;&gt;
+&quot;&quot;&quot;&gt;&gt;
 
 &lt;&lt;slider label:&quot;''Вступні положення та обґрунтування''&quot; status:closed labelClass:&quot;alert alert-secondary&quot; src:&quot;&quot;&quot;
 
