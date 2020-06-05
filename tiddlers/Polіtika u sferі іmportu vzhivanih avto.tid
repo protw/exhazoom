@@ -1,13 +1,13 @@
 created: 20200526081451250
-modified: 20200602102912770
+modified: 20200603053226840
 swap: Policy regarding the second-hand cars import
 tags: Ukr
 title: Політика у сфері імпорту вживаних авто
 
-<<slider label:"''Вебінар''" status:open labelClass:"alert alert-secondary" src:"""
+<<slider label:"''Вебінар''" labelClass:"alert alert-secondary" src:"""
 
 13го травня 2020 року, регіональною Європейською компанією //T&E// (Transport and Environment), що є ведучою у галузі чистого транспорту в Європі, а також її польським партнером, компанією FPPE (Fundacja Promocji Pojazdów Elektrycznych або Electric Vehicles Promotion Foundation) було проведено вебінар під назвою “Controlling the import of polluting second-hand cars to Central and Eastern Europe (Контролювання імпорту забруднюючих уживаних авто до Центральної та Східної Європи)”, присвячений проведеному даними компаніями дослідженню росту кількості забруднюючих уживаних авто та відповідному росту атмосферного забруднення, а також запропонованим економічно-політичним шляхам розв’язання даної проблеми, на прикладі Польщі. 
-""">>
+""" status:"open">>
 
 <<slider label:"''Вступні положення та обґрунтування''" status:closed labelClass:"alert alert-secondary" src:"""
 
