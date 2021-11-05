@@ -1,0 +1,13 @@
+created: 20211105072535346
+modified: 20211105082845313
+swap: Як знайти інфо про авто за номером держ реєстрації?
+tags: Eng
+title: How to get info about a car by its license plate number?
+
+Today, technical information about a car by its license plate number is open. There are also many methods of accessing this information, for instance:
+
+# [[Autonomer|https://ua.carplates.app/]] service. Information from there can be obtained by entering the car license plate number in the search bar or, for automated reading, by using the URL `https://ua.carplates.app/number/<car_lic_plate_num>`.
+
+# Also there are many data bots in Telegram and Viber that can provide technical information about a car by its license plate number.
+
+In each case, these and other automated services need to be tested for functionality and availability through API.
